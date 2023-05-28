@@ -6,11 +6,12 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: ;
+	text-decoration: none;
 
 }
 
 body {
-	background: lightpink;
+	background: #2196F3;
 	display: flex;
 	justify-content: center;
 	align-items: center;
