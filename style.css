@@ -5,7 +5,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: ;
 	text-decoration: none;
 
 }
@@ -33,7 +32,7 @@ body {
 .container .left_Side {
 	position: relative;
 	background: #003147;
-	padding: 36px;        /* 40px */
+	padding: 25px;        /* 40px */
 }
 
 .profileText {
@@ -64,7 +63,7 @@ body {
 
 .profileText h2 {
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	margin-top: 20px;
 	text-transform: uppercase;
 	text-align: center;
@@ -73,7 +72,7 @@ body {
 }
 
 .profileText h2 span {
-	font-size: 0.8em;
+	/* font-size: 0.8em; */
 	/*font-weight: 300;*/
 }
 
@@ -88,6 +87,17 @@ body {
 	/*font-weight: 600;*/
 	letter-spacing: 1px;
 	margin-bottom: 20px;
+}
+
+.star {
+	/* font-size: 2vw; */
+}
+
+.codechef {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2vw;
 }
 
 .contactInfo ul {
@@ -216,7 +226,7 @@ p {
 	position: relative;
 	width: 100%;
 	display: grid;
-	grid-template-columns: 150px 1fr;
+	grid-template-columns: 170px 1fr;
 	justify-content: center;
 	align-items: center;
 	white-space: nowrap;
@@ -224,7 +234,6 @@ p {
 
 .skills .box h4 {
 	text-decoration: uppercase;
-	color: ;
 	/*font-weight: 500;*/
 }
 
@@ -240,7 +249,6 @@ p {
 	top: 0;
 	left: 0;
 	height: 100%;
-	background: ;
 }
 
 
@@ -438,8 +446,14 @@ progress::-webkit-progress-bar {
 	margin-bottom: 1px;
 }
 .san750 {
-	color: ;
 	margin-bottom: 20px;
+	position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
 }
 .san9050 {
 	display: inline;
