@@ -20,10 +20,10 @@ body {
 .container {
 	position: relative;
 	width: 100%;
-	max-width: 1200px;
+	/* max-width: 1200px; */
 	min-height: 1000px;
 	background: #fff;
-	margin: 50px;
+	/* margin: 50px; */
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
@@ -444,6 +444,8 @@ progress::-webkit-progress-bar {
 	height: 17px;
 	white-space: nowrap;
 	margin-bottom: 1px;
+	position: relative;
+	left: 50px;
 }
 .san750 {
 	margin-bottom: 20px;
